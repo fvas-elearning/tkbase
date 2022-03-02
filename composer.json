@@ -1,5 +1,5 @@
 {
-  "name": "ttek/tkbase",
+  "name": "oum/tkbase",
   "type": "project",
   "description": "A Tk base MVC framework project",
   "keywords": [
@@ -11,7 +11,6 @@
   "authors": [
     {
       "name": "Michael Mifsud",
-      "email": "info@tropotek.com.au",
       "homepage": "http://www.tropotek.com/"
     }
   ],
@@ -35,11 +34,9 @@
   },
   "require": {
     "php": "^7.3.0",
-    "ttek/tk-base": "~3.2.0",
-    "ttek/theme-cube": "~1.2.0",
-    "ttek-plg/mailog": "~1.0.0",
-    "ttek-plg/events": "~1.0.0",
-    "ttek-plg/subscribers": "~1.0.0",
+    "uom/tk-base": "~3.2.0",
+    "uom/theme-cube": "~1.2.0",
+    "uom-plg/mailog": "~1.0.0",
     "ext-pdo": "*",
     "ext-json": "*"
   },
