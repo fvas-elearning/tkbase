@@ -34,9 +34,9 @@
   },
   "require": {
     "php": "^7.3.0",
-    "uom/tk-base": "~3.2.0",
-    "uom/theme-cube": "~1.2.0",
-    "uom-plg/mailog": "~1.0.0",
+    "uom/tk-base": "~3.4.0",
+    "uom/theme-cube": "~1.4.0",
+    "uom-plg/mailog": "~3.0.0",
     "ext-pdo": "*",
     "ext-json": "*"
   },
