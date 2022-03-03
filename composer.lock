@@ -1929,12 +1929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fvas-elearning/plg-mailog.git",
-                "reference": "6a911c665384e0fe106d058fb98cd306d5d49a56"
+                "reference": "cccdf0c29d5a902dead92b1155a80d7f6c0f8bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fvas-elearning/plg-mailog/zipball/6a911c665384e0fe106d058fb98cd306d5d49a56",
-                "reference": "6a911c665384e0fe106d058fb98cd306d5d49a56",
+                "url": "https://api.github.com/repos/fvas-elearning/plg-mailog/zipball/cccdf0c29d5a902dead92b1155a80d7f6c0f8bed",
+                "reference": "cccdf0c29d5a902dead92b1155a80d7f6c0f8bed",
                 "shasum": ""
             },
             "default-branch": true,
@@ -2348,12 +2348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fvas-elearning/tk-installers.git",
-                "reference": "f433e619d81c6a02fc9ab53fa1b3f7da44713974"
+                "reference": "49956949513e9317bc72675b49c3ca5a6090324a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fvas-elearning/tk-installers/zipball/f433e619d81c6a02fc9ab53fa1b3f7da44713974",
-                "reference": "f433e619d81c6a02fc9ab53fa1b3f7da44713974",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-installers/zipball/49956949513e9317bc72675b49c3ca5a6090324a",
+                "reference": "49956949513e9317bc72675b49c3ca5a6090324a",
                 "shasum": ""
             },
             "require": {
@@ -2383,7 +2383,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2396,12 +2395,6 @@
             "support": {
                 "source": "https://github.com/fvas-elearning/tk-installers/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
@@ -2735,5 +2728,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }

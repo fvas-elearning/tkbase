@@ -41,5 +41,10 @@
     "ext-json": "*"
   },
   "require-dev": {
+  },
+  "config": {
+    "allow-plugins": {
+      "uom/tk-installers": true
+    }
   }
 }
