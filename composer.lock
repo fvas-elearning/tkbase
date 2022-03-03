@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59bbb00a15192ff628acdc57a97717bb",
+    "content-hash": "b85aafae58285ce087d0d86b4997e402",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c55d23ab371b472342bee943a8bdb9c3cf963a18"
+                "reference": "c5b547b9904106507e48c645b76ff74f18eea84e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c55d23ab371b472342bee943a8bdb9c3cf963a18",
-                "reference": "c55d23ab371b472342bee943a8bdb9c3cf963a18",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c5b547b9904106507e48c645b76ff74f18eea84e",
+                "reference": "c5b547b9904106507e48c645b76ff74f18eea84e",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -120,20 +120,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-11T15:47:52+00:00"
+            "time": "2022-01-02T11:26:46+00:00"
         },
         {
             "name": "intervention/image",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "9a8cc99d30415ec0b3f7649e1647d03a55698545"
+                "reference": "744ebba495319501b873a4e48787759c72e3fb8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/9a8cc99d30415ec0b3f7649e1647d03a55698545",
-                "reference": "9a8cc99d30415ec0b3f7649e1647d03a55698545",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/744ebba495319501b873a4e48787759c72e3fb8c",
+                "reference": "744ebba495319501b873a4e48787759c72e3fb8c",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +192,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Intervention/image/issues",
-                "source": "https://github.com/Intervention/image/tree/2.7.0"
+                "source": "https://github.com/Intervention/image/tree/2.7.1"
             },
             "funding": [
                 {
@@ -204,7 +204,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-03T14:17:12+00:00"
+            "time": "2021-12-16T16:49:26+00:00"
         },
         {
             "name": "lasserafn/php-initial-avatar-generator",
@@ -541,12 +541,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Overtrue\\Pinyin\\": "src/"
-                },
                 "files": [
                     "src/const.php"
-                ]
+                ],
+                "psr-4": {
+                    "Overtrue\\Pinyin\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -580,16 +580,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.5.1",
+            "version": "v6.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355"
+                "reference": "e43bac82edc26ca04b36143a48bde1c051cfd5b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/dd803df5ad7492e1b40637f7ebd258fee5ca7355",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/e43bac82edc26ca04b36143a48bde1c051cfd5b1",
+                "reference": "e43bac82edc26ca04b36143a48bde1c051cfd5b1",
                 "shasum": ""
             },
             "require": {
@@ -602,10 +602,10 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "doctrine/annotations": "^1.2",
                 "php-parallel-lint/php-console-highlighter": "^0.5.0",
-                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "php-parallel-lint/php-parallel-lint": "^1.3.1",
                 "phpcompatibility/php-compatibility": "^9.3.5",
                 "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.6.0",
+                "squizlabs/php_codesniffer": "^3.6.2",
                 "yoast/phpunit-polyfills": "^1.0.0"
             },
             "suggest": {
@@ -646,7 +646,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.0"
             },
             "funding": [
                 {
@@ -654,7 +654,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-18T09:14:16+00:00"
+            "time": "2022-02-28T15:31:21+00:00"
         },
         {
             "name": "psr/cache",
@@ -1158,12 +1158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "cf2984f7a99bfae197f9c96f5a16a4041ff6ffb1"
+                "reference": "d760c3aa41e6dbbf2060e597ea22da1cbbdd5331"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/cf2984f7a99bfae197f9c96f5a16a4041ff6ffb1",
-                "reference": "cf2984f7a99bfae197f9c96f5a16a4041ff6ffb1",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/d760c3aa41e6dbbf2060e597ea22da1cbbdd5331",
+                "reference": "d760c3aa41e6dbbf2060e597ea22da1cbbdd5331",
                 "shasum": ""
             },
             "require": {
@@ -1244,7 +1244,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-04T13:32:43+00:00"
+            "time": "2022-01-02T09:41:36+00:00"
         },
         {
             "name": "symfony/debug",
@@ -1252,12 +1252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "43ede438d4cb52cd589ae5dc070e9323866ba8e0"
+                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/43ede438d4cb52cd589ae5dc070e9323866ba8e0",
-                "reference": "43ede438d4cb52cd589ae5dc070e9323866ba8e0",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/5de6c6e7f52b364840e53851c126be4d71e60470",
+                "reference": "5de6c6e7f52b364840e53851c126be4d71e60470",
                 "shasum": ""
             },
             "require": {
@@ -1297,7 +1297,7 @@
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.31"
+                "source": "https://github.com/symfony/debug/tree/v4.4.37"
             },
             "funding": [
                 {
@@ -1313,7 +1313,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-24T13:30:14+00:00"
+            "time": "2022-01-02T09:41:36+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1534,7 +1534,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "dev-main",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1555,7 +1555,6 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1567,12 +1566,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1597,7 +1596,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/main"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.24.0"
             },
             "funding": [
                 {
@@ -1617,16 +1616,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-main",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "11b9acb5e8619aef6455735debf77dde8825795c"
+                "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/11b9acb5e8619aef6455735debf77dde8825795c",
-                "reference": "11b9acb5e8619aef6455735debf77dde8825795c",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/0abb51d2f102e00a4eefcf46ba7fec406d245825",
+                "reference": "0abb51d2f102e00a4eefcf46ba7fec406d245825",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1637,6 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1650,12 +1648,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1681,7 +1679,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/main"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.24.0"
             },
             "funding": [
                 {
@@ -1697,7 +1695,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-20T20:35:02+00:00"
+            "time": "2021-11-30T18:21:41+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -1926,70 +1924,21 @@
             "time": "2019-07-18T10:29:22+00:00"
         },
         {
-            "name": "ttek-plg/events",
+            "name": "uom-plg/mailog",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/plg-events.git",
-                "reference": "8688e826297f30483513cc9c97abfc670d25450b"
+                "url": "https://github.com/fvas-elearning/plg-mailog.git",
+                "reference": "6a911c665384e0fe106d058fb98cd306d5d49a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/plg-events/zipball/8688e826297f30483513cc9c97abfc670d25450b",
-                "reference": "8688e826297f30483513cc9c97abfc670d25450b",
+                "url": "https://api.github.com/repos/fvas-elearning/plg-mailog/zipball/6a911c665384e0fe106d058fb98cd306d5d49a56",
+                "reference": "6a911c665384e0fe106d058fb98cd306d5d49a56",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "ttek-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Tk\\Ev\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Mifsud",
-                    "homepage": "http://www.tropotek.com/"
-                }
-            ],
-            "description": "A plugin to manage events locations and dates",
-            "homepage": "http://www.tropotek.com/",
-            "keywords": [
-                "events",
-                "plugin",
-                "tk2",
-                "tropotek"
-            ],
-            "support": {
-                "issues": "https://github.com/tropotek/plg-events/issues",
-                "source": "https://github.com/tropotek/plg-events/tree/master"
-            },
-            "time": "2018-07-17T00:00:00+00:00"
-        },
-        {
-            "name": "ttek-plg/mailog",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tropotek/plg-mailog.git",
-                "reference": "8cc1eb0269650ab709c5289e3528f488e6705956"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/plg-mailog/zipball/8cc1eb0269650ab709c5289e3528f488e6705956",
-                "reference": "8cc1eb0269650ab709c5289e3528f488e6705956",
-                "shasum": ""
-            },
-            "type": "ttek-plugin",
+            "type": "uom-plugin",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -2019,76 +1968,26 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/plg-mailog/issues",
-                "source": "https://github.com/tropotek/plg-mailog/tree/1.0"
+                "source": "https://github.com/fvas-elearning/plg-mailog/tree/master"
             },
             "time": "2017-09-27T00:00:00+00:00"
         },
         {
-            "name": "ttek-plg/subscribers",
+            "name": "uom/theme-cube",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/plg-subscribers.git",
-                "reference": "e13ef98aa9e4391250747d13ae1330af41172baf"
+                "url": "https://github.com/fvas-elearning/theme-cube.git",
+                "reference": "e120dc5b7c66dc91b79768c01769b2b647ed4656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/plg-subscribers/zipball/e13ef98aa9e4391250747d13ae1330af41172baf",
-                "reference": "e13ef98aa9e4391250747d13ae1330af41172baf",
+                "url": "https://api.github.com/repos/fvas-elearning/theme-cube/zipball/e120dc5b7c66dc91b79768c01769b2b647ed4656",
+                "reference": "e120dc5b7c66dc91b79768c01769b2b647ed4656",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "ttek-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Tk\\Sub\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Mifsud",
-                    "homepage": "http://www.tropotek.com/"
-                }
-            ],
-            "description": "A plugin to manage newsletter subscription emails",
-            "homepage": "http://www.tropotek.com/",
-            "keywords": [
-                "plugin",
-                "subscribers",
-                "tk2",
-                "tropotek"
-            ],
-            "support": {
-                "issues": "https://github.com/tropotek/plg-subscribers/issues",
-                "source": "https://github.com/tropotek/plg-subscribers/tree/master"
-            },
-            "time": "2018-07-17T00:00:00+00:00"
-        },
-        {
-            "name": "ttek/theme-cube",
-            "version": "1.2.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tropotek/theme-cube.git",
-                "reference": "4987a523d14c7695f73778d8584fab4d345af8a7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/theme-cube/zipball/4987a523d14c7695f73778d8584fab4d345af8a7",
-                "reference": "4987a523d14c7695f73778d8584fab4d345af8a7",
-                "shasum": ""
-            },
-            "type": "tek-theme",
+            "type": "uom-theme",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.2.x-dev"
@@ -2101,7 +2000,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2111,28 +2009,28 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/theme-cube/issues",
-                "source": "https://github.com/tropotek/theme-cube/tree/1.2"
+                "source": "https://github.com/fvas-elearning/theme-cube/tree/master"
             },
             "time": "2018-09-11T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-auth",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-auth",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-auth.git",
-                "reference": "d28ca28a3e4092d752a76fac992b1e39a5041b18"
+                "url": "https://github.com/fvas-elearning/tk-auth.git",
+                "reference": "a38e649a882c5c195751a37966e9d1afa954b8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-auth/zipball/d28ca28a3e4092d752a76fac992b1e39a5041b18",
-                "reference": "d28ca28a3e4092d752a76fac992b1e39a5041b18",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-auth/zipball/a38e649a882c5c195751a37966e9d1afa954b8c1",
+                "reference": "a38e649a882c5c195751a37966e9d1afa954b8c1",
                 "shasum": ""
             },
             "require": {
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2151,7 +2049,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2161,46 +2058,40 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-auth/issues",
-                "source": "https://github.com/tropotek/tk-auth/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-auth/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-base",
-            "version": "3.2.x-dev",
+            "name": "uom/tk-base",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-base.git",
-                "reference": "a4d75b381b415a123846a9dbb2fbe46ae8be32d5"
+                "url": "https://github.com/fvas-elearning/tk-base.git",
+                "reference": "21b36790bfb0da77cbfaedf26f12d562d5e3abd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-base/zipball/a4d75b381b415a123846a9dbb2fbe46ae8be32d5",
-                "reference": "a4d75b381b415a123846a9dbb2fbe46ae8be32d5",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-base/zipball/21b36790bfb0da77cbfaedf26f12d562d5e3abd1",
+                "reference": "21b36790bfb0da77cbfaedf26f12d562d5e3abd1",
                 "shasum": ""
             },
             "require": {
                 "lasserafn/php-initial-avatar-generator": "~4.0",
-                "php": "^7.3.0",
+                "php": "^7.3||^8.0",
                 "sensiolabs/ansi-to-html": "~1.0",
-                "ttek/tk-auth": "~3.0.0",
-                "ttek/tk-database": "~3.2.0",
-                "ttek/tk-domtemplate": "~3.0.0",
-                "ttek/tk-form": "~3.0.0",
-                "ttek/tk-framework": "~3.0.0",
-                "ttek/tk-mail": "~3.0.0",
-                "ttek/tk-mvc": "~3.2.0",
-                "ttek/tk-plugin": "~3.2.0",
-                "ttek/tk-table": "~3.0.0",
-                "ttek/tk-ui": "~3.0.0"
+                "uom/tk-auth": "~3.0.0",
+                "uom/tk-database": "~3.2.0",
+                "uom/tk-domtemplate": "~3.0.0",
+                "uom/tk-form": "~3.0.0",
+                "uom/tk-framework": "~3.0.0",
+                "uom/tk-mail": "~3.0.0",
+                "uom/tk-mvc": "~3.2.0",
+                "uom/tk-plugin": "~3.2.0",
+                "uom/tk-table": "~3.0.0",
+                "uom/tk-ui": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2219,7 +2110,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2230,35 +2120,29 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-base/issues",
-                "source": "https://github.com/tropotek/tk-base/tree/3.2"
+                "source": "https://github.com/fvas-elearning/tk-base/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
-            "time": "2019-04-09T00:00:00+00:00"
+            "time": "2021-11-26T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-database",
-            "version": "3.2.x-dev",
+            "name": "uom/tk-database",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-database.git",
-                "reference": "2bf856a98d0c886fc5e24e687db0c3e108e77c75"
+                "url": "https://github.com/fvas-elearning/tk-database.git",
+                "reference": "1c977a48d8d6b66c3a0b9cade825befa7b8e4f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-database/zipball/2bf856a98d0c886fc5e24e687db0c3e108e77c75",
-                "reference": "2bf856a98d0c886fc5e24e687db0c3e108e77c75",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-database/zipball/1c977a48d8d6b66c3a0b9cade825befa7b8e4f20",
+                "reference": "1c977a48d8d6b66c3a0b9cade825befa7b8e4f20",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2277,7 +2161,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2288,38 +2171,32 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-database/issues",
-                "source": "https://github.com/tropotek/tk-database/tree/3.2"
+                "source": "https://github.com/fvas-elearning/tk-database/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-domtemplate",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-domtemplate",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-domtemplate.git",
-                "reference": "8c16281f6113451f813ee399f6eaa9d34809d1d4"
+                "url": "https://github.com/fvas-elearning/tk-domtemplate.git",
+                "reference": "866e8888656fa00e48f3564f5702221c68ba6763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-domtemplate/zipball/8c16281f6113451f813ee399f6eaa9d34809d1d4",
-                "reference": "8c16281f6113451f813ee399f6eaa9d34809d1d4",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-domtemplate/zipball/866e8888656fa00e48f3564f5702221c68ba6763",
+                "reference": "866e8888656fa00e48f3564f5702221c68ba6763",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-tidy": "*",
-                "php": ">=7.1.0",
+                "php": "^7.3||^8.0",
                 "scssphp/scssphp": "1.0.*",
                 "wikimedia/less.php": "1.7.*"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2338,7 +2215,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2349,35 +2225,29 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-domtemplate/issues",
-                "source": "https://github.com/tropotek/tk-domtemplate/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-domtemplate/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-form",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-form",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-form.git",
-                "reference": "33d86978d5be88567c74f30825c482d416d98886"
+                "url": "https://github.com/fvas-elearning/tk-form.git",
+                "reference": "42493e167692e4f13dc1d0956c2993b3ceee7cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-form/zipball/33d86978d5be88567c74f30825c482d416d98886",
-                "reference": "33d86978d5be88567c74f30825c482d416d98886",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-form/zipball/42493e167692e4f13dc1d0956c2993b3ceee7cc9",
+                "reference": "42493e167692e4f13dc1d0956c2993b3ceee7cc9",
                 "shasum": ""
             },
             "require": {
-                "ttek/tk-framework": "~3.0.0",
-                "ttek/tk-ui": "~3.0.0"
+                "uom/tk-framework": "~3.0.0",
+                "uom/tk-ui": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2396,7 +2266,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2406,39 +2275,33 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-form/issues",
-                "source": "https://github.com/tropotek/tk-form/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-form/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-framework",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-framework",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-framework.git",
-                "reference": "110784aa9dc8d3d50c161c8fc5bc9c4fb87d5606"
+                "url": "https://github.com/fvas-elearning/tk-framework.git",
+                "reference": "4d310b887afb80334a97459069dc74fe2fab3752"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-framework/zipball/110784aa9dc8d3d50c161c8fc5bc9c4fb87d5606",
-                "reference": "110784aa9dc8d3d50c161c8fc5bc9c4fb87d5606",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-framework/zipball/4d310b887afb80334a97459069dc74fe2fab3752",
+                "reference": "4d310b887afb80334a97459069dc74fe2fab3752",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "monolog/monolog": "^1.0",
-                "php": "^7.1|^8.0",
+                "php": "^7.3||^8.0",
                 "psr/log": "^1.0",
                 "symfony/http-foundation": "4.2.*",
-                "ttek/tk-installers": "~3.0.0"
+                "uom/tk-installers": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2446,13 +2309,13 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Tk\\": ""
-                },
                 "files": [
                     "Tk/Exception.php",
                     "functions/varDump.php"
                 ],
+                "psr-0": {
+                    "Tk\\": ""
+                },
                 "exclude-from-classmap": [
                     "/tests/"
                 ]
@@ -2475,34 +2338,28 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-framework/issues",
-                "source": "https://github.com/tropotek/tk-framework/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-framework/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-installers",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-installers",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-installers.git",
-                "reference": "795354fbc1e2c87fcba4c67eae5e276799f10708"
+                "url": "https://github.com/fvas-elearning/tk-installers.git",
+                "reference": "f433e619d81c6a02fc9ab53fa1b3f7da44713974"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-installers/zipball/795354fbc1e2c87fcba4c67eae5e276799f10708",
-                "reference": "795354fbc1e2c87fcba4c67eae5e276799f10708",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-installers/zipball/f433e619d81c6a02fc9ab53fa1b3f7da44713974",
+                "reference": "f433e619d81c6a02fc9ab53fa1b3f7da44713974",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0"
             },
+            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": [
@@ -2537,8 +2394,7 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-installers/issues",
-                "source": "https://github.com/tropotek/tk-installers/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-installers/tree/master"
             },
             "funding": [
                 {
@@ -2549,23 +2405,24 @@
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-mail",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-mail",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-mail.git",
-                "reference": "d73f9add4cf94915b57e0245a979eda9cc5ae5e5"
+                "url": "https://github.com/fvas-elearning/tk-mail.git",
+                "reference": "56bc960fab8e5cf05fd49ee62f2307d332f8028e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-mail/zipball/d73f9add4cf94915b57e0245a979eda9cc5ae5e5",
-                "reference": "d73f9add4cf94915b57e0245a979eda9cc5ae5e5",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-mail/zipball/56bc960fab8e5cf05fd49ee62f2307d332f8028e",
+                "reference": "56bc960fab8e5cf05fd49ee62f2307d332f8028e",
                 "shasum": ""
             },
             "require": {
                 "phpmailer/phpmailer": "~6.0",
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2584,7 +2441,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2594,29 +2450,22 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-mail/issues",
-                "source": "https://github.com/tropotek/tk-mail/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-mail/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-mvc",
-            "version": "3.2.x-dev",
+            "name": "uom/tk-mvc",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-mvc.git",
-                "reference": "afee8167a8bd0ede8fdf6bf4a62df38d02ae3c9a"
+                "url": "https://github.com/fvas-elearning/tk-mvc.git",
+                "reference": "7695098289a37e7402a2ec7b864413daa82366ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-mvc/zipball/afee8167a8bd0ede8fdf6bf4a62df38d02ae3c9a",
-                "reference": "afee8167a8bd0ede8fdf6bf4a62df38d02ae3c9a",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-mvc/zipball/7695098289a37e7402a2ec7b864413daa82366ab",
+                "reference": "7695098289a37e7402a2ec7b864413daa82366ab",
                 "shasum": ""
             },
             "require": {
@@ -2625,8 +2474,9 @@
                 "symfony/http-kernel": "4.2.*",
                 "symfony/routing": "4.2.*",
                 "symfony/translation": "4.2.*",
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2645,7 +2495,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2656,34 +2505,28 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-mvc/issues",
-                "source": "https://github.com/tropotek/tk-mvc/tree/3.2"
+                "source": "https://github.com/fvas-elearning/tk-mvc/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-plugin",
-            "version": "3.2.x-dev",
+            "name": "uom/tk-plugin",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-plugin.git",
-                "reference": "d0a96ee66d3a8d0397a33baa53126f9bdb67f9c9"
+                "url": "https://github.com/fvas-elearning/tk-plugin.git",
+                "reference": "7c5c9d1bbce8ec672b364fd620b18dfd20f42aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-plugin/zipball/d0a96ee66d3a8d0397a33baa53126f9bdb67f9c9",
-                "reference": "d0a96ee66d3a8d0397a33baa53126f9bdb67f9c9",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-plugin/zipball/7c5c9d1bbce8ec672b364fd620b18dfd20f42aec",
+                "reference": "7c5c9d1bbce8ec672b364fd620b18dfd20f42aec",
                 "shasum": ""
             },
             "require": {
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2702,7 +2545,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2712,34 +2554,28 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-plugin/issues",
-                "source": "https://github.com/tropotek/tk-plugin/tree/3.2"
+                "source": "https://github.com/fvas-elearning/tk-plugin/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-table",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-table",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-table.git",
-                "reference": "cd866160b0b7e6486ebcd70503e090f7d958d366"
+                "url": "https://github.com/fvas-elearning/tk-table.git",
+                "reference": "c00e51252d3dc2729e9c8a892a13239075751165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-table/zipball/cd866160b0b7e6486ebcd70503e090f7d958d366",
-                "reference": "cd866160b0b7e6486ebcd70503e090f7d958d366",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-table/zipball/c00e51252d3dc2729e9c8a892a13239075751165",
+                "reference": "c00e51252d3dc2729e9c8a892a13239075751165",
                 "shasum": ""
             },
             "require": {
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2758,7 +2594,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2768,34 +2603,28 @@
                 "tropotek"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-table/issues",
-                "source": "https://github.com/tropotek/tk-table/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-table/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2020-11-12T00:00:00+00:00"
         },
         {
-            "name": "ttek/tk-ui",
-            "version": "3.0.x-dev",
+            "name": "uom/tk-ui",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tropotek/tk-ui.git",
-                "reference": "fde5ca6ca6e56f0d9299ff39fa5cc1d82157c175"
+                "url": "https://github.com/fvas-elearning/tk-ui.git",
+                "reference": "2a66af7cf5f9fefdda809eba8f519a2e80c8d815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tropotek/tk-ui/zipball/fde5ca6ca6e56f0d9299ff39fa5cc1d82157c175",
-                "reference": "fde5ca6ca6e56f0d9299ff39fa5cc1d82157c175",
+                "url": "https://api.github.com/repos/fvas-elearning/tk-ui/zipball/2a66af7cf5f9fefdda809eba8f519a2e80c8d815",
+                "reference": "2a66af7cf5f9fefdda809eba8f519a2e80c8d815",
                 "shasum": ""
             },
             "require": {
-                "ttek/tk-framework": "~3.0.0"
+                "uom/tk-framework": "~3.0.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2814,7 +2643,6 @@
             "authors": [
                 {
                     "name": "Michael Mifsud",
-                    "email": "info@tropotek.com.au",
                     "homepage": "http://www.tropotek.com/"
                 }
             ],
@@ -2825,15 +2653,8 @@
                 "ui"
             ],
             "support": {
-                "issues": "https://github.com/tropotek/tk-ui/issues",
-                "source": "https://github.com/tropotek/tk-ui/tree/3.0"
+                "source": "https://github.com/fvas-elearning/tk-ui/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/tropotek",
-                    "type": "Paypal"
-                }
-            ],
             "time": "2019-04-09T00:00:00+00:00"
         },
         {
